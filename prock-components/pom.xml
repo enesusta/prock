@@ -5,14 +5,18 @@
     <parent>
         <artifactId>prock</artifactId>
         <groupId>com.github.enesusta</groupId>
-        <version>1.0.0</version>
+        <version>${global.version}</version>
     </parent>
 
     <packaging>jar</packaging>
-
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.github.enesusta.prock</groupId>
     <artifactId>prock-components</artifactId>
-    <version>1.0.0</version>
+    <version>${prock.components.version}</version>
+
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
 
 </project>
