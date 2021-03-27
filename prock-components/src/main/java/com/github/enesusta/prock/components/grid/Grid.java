@@ -1,4 +1,4 @@
-package com.github.enesusta.prock.components.grids;
+package com.github.enesusta.prock.components.grid;
 
 import com.github.enesusta.prock.components.Addable;
 

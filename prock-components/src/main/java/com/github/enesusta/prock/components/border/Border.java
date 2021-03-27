@@ -1,4 +1,4 @@
-package com.github.enesusta.prock.components.borders;
+package com.github.enesusta.prock.components.border;
 
 import javax.swing.JComponent;
 import javax.swing.JPanel;
