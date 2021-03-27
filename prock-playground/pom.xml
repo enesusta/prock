@@ -11,5 +11,19 @@
 
     <artifactId>prock-playground</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.github.enesusta.prock</groupId>
+            <artifactId>prock-components</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.enesusta</groupId>
+            <artifactId>prock-http</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.enesusta.prock</groupId>
+            <artifactId>prock-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
