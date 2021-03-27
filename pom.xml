@@ -9,6 +9,7 @@
         <module>prock-core</module>
         <module>prock-http</module>
         <module>prock-components</module>
+        <module>prock-playground</module>
     </modules>
 
     <properties>
@@ -16,10 +17,34 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.6.0</junit.version>
+
+        <!-- sub module versions -->
+        <prock.components.version>0.0.1</prock.components.version>
+        <prock.core.version>0.0.1</prock.core.version>
+        <prock.http.version>0.0.1</prock.http.version>
     </properties>
 
-    <dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.enesusta.prock</groupId>
+                <artifactId>prock-components</artifactId>
+                <version>${prock.components.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.enesusta.prock</groupId>
+                <artifactId>prock-core</artifactId>
+                <version>${prock.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.enesusta</groupId>
+                <artifactId>prock-http</artifactId>
+                <version>${prock.http.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
