@@ -5,7 +5,7 @@
     <parent>
         <artifactId>prock</artifactId>
         <groupId>com.github.enesusta</groupId>
-        <version>1.0.0</version>
+        <version>${global.version}</version>
     </parent>
 
     <packaging>jar</packaging>
@@ -13,6 +13,8 @@
 
     <groupId>com.github.enesusta.prock</groupId>
     <artifactId>prock-core</artifactId>
+
+    <version>${prock.core.version}</version>
 
     <dependencies>
         <dependency>

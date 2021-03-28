@@ -1,9 +1,8 @@
-.idea/
-java-crawler.iml
-
-
 .idea/*
 HELP.md
+
+**/.flattened-pom.xml
+
 **target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
