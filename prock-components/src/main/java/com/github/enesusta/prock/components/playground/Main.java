@@ -2,8 +2,13 @@ package com.github.enesusta.prock.components.playground;
 
 import com.github.enesusta.prock.components.frame.Frame;
 import com.github.enesusta.prock.components.grid.GridBag;
+import com.github.enesusta.prock.components.square.Square;
 
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 import java.awt.Color;
 
 public class Main {
@@ -34,9 +39,12 @@ public class Main {
                 .gridX(2)
                 .add(borderedLabel("deneeme -3"));
 
+        Square square = Square.newInstance()
+                .center(new JLabel("center"))
+                .north(new JLabel("page-start"))
+                .south(new JLabel("page-end"));
 
-
-        frame.add(heating);
+        frame.add(square);
 
         UIManager.setLookAndFeel(UIManager.getLookAndFeel());
         SwingUtilities.updateComponentTreeUI(frame);
