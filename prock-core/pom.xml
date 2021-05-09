@@ -11,16 +11,13 @@
     <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.enesusta.prock</groupId>
     <artifactId>prock-core</artifactId>
-
     <version>${prock.core.version}</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.enesusta.prock</groupId>
+            <groupId>com.github.enesusta</groupId>
             <artifactId>prock-components</artifactId>
-            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

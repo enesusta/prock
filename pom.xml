@@ -10,7 +10,6 @@
         <module>prock-core</module>
         <module>prock-http</module>
         <module>prock-components</module>
-        <module>prock-playground</module>
     </modules>
 
     <properties>
@@ -21,7 +20,7 @@
         <global.version>0.0.1</global.version>
 
         <!-- sub module versions -->
-        <prock.components.version>0.0.1</prock.components.version>
+        <prock.components.version>0.0.2</prock.components.version>
         <prock.core.version>0.0.1</prock.core.version>
         <prock.http.version>0.0.1</prock.http.version>
     </properties>
@@ -29,12 +28,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.enesusta.prock</groupId>
+                <groupId>com.github.enesusta</groupId>
                 <artifactId>prock-components</artifactId>
                 <version>${prock.components.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.enesusta.prock</groupId>
+                <groupId>com.github.enesusta</groupId>
                 <artifactId>prock-core</artifactId>
                 <version>${prock.core.version}</version>
             </dependency>

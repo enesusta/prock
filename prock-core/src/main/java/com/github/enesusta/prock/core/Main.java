@@ -1,6 +1,7 @@
 package com.github.enesusta.prock.core;
 
-import com.github.enesusta.prock.components.grids.Grid;
+
+import com.github.enesusta.prock.components.grid.Grid;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
